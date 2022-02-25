@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #d0d0d0;
+    width: 250px;
+    height: 570px;
+    text-align: center;
+
+}
+
+.img-movie{
+    width: 250px;
+    height: 350px;
+}
+
+.img-movie-one{
+    background: url("https://th.bing.com/th/id/R.c10c9d458aae5a52bd822195b6e222ac?rik=kJmSghr2hTlAUg&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.img-movie-two{
+    background: url("https://th.bing.com/th/id/OIP.9-YIpg_885M5Xs51LNotUwHaKe?pid=ImgDet&rs=1");
+    background-size: cover;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+p{
+    padding: 10px 0;
+}

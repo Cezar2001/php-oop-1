@@ -39,15 +39,24 @@ $movieTwo = new Movie("Legend", "Gangstar twins", "03-03-2016", "Drama", "Eng");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
-<?php  
-    echo ($movieOne -> getMovie());
-    echo ($movieTwo -> getMovie());
-?>
 
+<div class="container">
+
+    <div class="card">
+        <div class="img-movie img-movie-one"></div>
+        <?php  echo ($movieOne -> getMovie());?>
+    </div>
+
+    <div class="card">
+        <div class="img-movie img-movie-two"></div>
+        <?php  echo ($movieTwo -> getMovie());?>
+    </div>
+    
+</div>    
 
 </body>
 </html>
